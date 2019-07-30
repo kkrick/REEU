@@ -4,11 +4,17 @@ Weather is unpredictable and the “volume” of tactical decisions so large tha
 The files that are imported into the script are .csv files that contain data about the fields that this code was tested on collected from the USDA Web Soil Survey as well as data about weather collected from the Fort Wayne international airport because this was the closest available location to collect past daily weather data from NOAA. The field data files contains the following rows: field number, soil type, drainage class rating, minimum percent slope, maximum percent slope, average percent slope, percent of field, and acres. The weather data file must include but is not limited to: date and precipitation.
 
 Some assumptions/limitations that were made in developing this script:
+
 1 - The fields are level (Elevation was not considered)
+
 2 - Weather conditions are the same for all fields
+
 3 - USDA Web Soil Survey is 100% accurate
+
 4 - The farming equipment is all uniform (There is no change in how dry the soil must be in order to drive on it)
+
 Going forward, we hope to eliminate some of these assumptions and implement them into the script.
 
 Katie Krick and Morgan Abraham
+
 Faculty Adviser: Dr. Dennis Buckmaster
